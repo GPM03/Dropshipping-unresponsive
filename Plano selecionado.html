@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Plano selecionado</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="quem somos.html">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#">Termos de Uso</a>
+                    </li>
+                    <li>
+                        <a href="#">Perguntas Frequentes</a>
+                    </li>
+                    <li>
+                        <a href="#">Fale Conosco</a>
+                    </li>
+                </ul>
+            </nav>
+            <article class="intro" id="intro-sobre">
+                <h1>
+                    <a href="home.html">
+                        <img id="logo" src="materials/img/sequence-logo.svg" alt="Sequence">
+                        Dropshipping
+                    </a>
+                </h1>
+            </article>
+        </header>
+
+        <main>
+            <article class="plano-selecionado">
+                <h2>Seu plano foi selecionado!</h2>
+                <p>Agora, preencha corretamente o formulário abaixo para que possamos receber suas informações e contata-lo.</p>
+                <p>Plano Selecionado:</p> <!-- fazer o plano aparecer aqui -->
+                <form>
+                    <label>
+                        <span>Razão Social:*</span>
+                        <input type="text" name="razão-social">
+                    </label>
+                    <label>
+                        <span>CNPJ:*</span>
+                        <input type="text" name="cnpj">
+                    </label>
+                    <label>
+                        <span>Nº atual de funcionários:*</span>
+                        <input type="text" name="funcionários-número">
+                    </label>
+                    <label>
+                        <span>Endereço completo:*</span>
+                        <input type="text" name="endereço">
+                    </label>
+                    <label>
+                        <span>Número:*</span>
+                        <input type="text" name="número">
+                    </label>
+                    <label>
+                        <span>Complemento:*</span>
+                        <input type="text" name="complemento">
+                    </label>
+                    <label>
+                        <span>CEP:*</span>
+                        <input type="text" name="cep">
+                    </label>
+                    <label>
+                        <span>Cidade:*</span>
+                        <input type="text" name="cidade">
+                    </label>
+                    <label>
+                        <span>Estado:*</span>
+                        <input type="text" name="estado">
+                    </label>
+                    <label>
+                        <span>Telefone:*</span>
+                        <input type="text" name="telefone">
+                    </label>
+                    <label>
+                        <span>E-mail:*</span>
+                        <input type="text" name="email">
+                    </label>
+                    <label>
+                        <span>Aceito receber novidades</span>
+                        <input type="checkbox" name="novidades">
+                    </label>
+                    <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                    <input class="button" type="submit" value="Enviar">
+                    <!--colocar captcha-->
+                </form>
+            </article>
+        </main>
+
+        <footer>
+            <div class="info">
+                <img src="materials/img/sequence-logo.svg" alt="Sequence">
+                <address>
+                    <a href="#">Rua Carlos Ranzi, 316 - Sala 1 - Santa Maria, Bento Gonçalves - RS</a> <br>
+                    <a href="tel:054991465632">(54) 99146 5632</a> / <a href="tel:054996875541">(54) 99687 5541</a> <br>
+                    <a href=mailto:contato@goondesign.com.br>contato@goondesign.com.br</a>
+                </address>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                </ul>
+            </div>
+            <div class="footer-bar">
+                <img src="materials/img/goon-logo.svg" alt="Goon">
+                <small>@2021 - Todos os direitos reservados</small>
+            </div>
+        </footer>
+    </body>
+</html>
